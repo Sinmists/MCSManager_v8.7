@@ -72,8 +72,12 @@ Linux 下面板如何后台运行？ | [参考方法](https://github.com/Suwings
 **快速安装（适用于AMD64架构 Ubuntu/Centos/Debian/Archlinux）**
 
 使用root用户安装
-```bash
+```
 wget https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/install.sh && chmod +x install.sh && ./install.sh
+```
+若使用Gitee源：
+```
+wget https://gitee.com/kc_jiang/MCSManager_v8.7/raw/master/linux/install_gitee.sh && chmod +x install_gitee.sh && ./install_gitee.sh
 ```
 
 - 执行完成后，使用 `systemctl start mcsm` 即可启动面板服务。
@@ -94,7 +98,7 @@ wget https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/ins
 ```zsh
 # 克隆仓库
 git clone https://github.com/Sinmists/MCSManager_v8.7.git
-cd MCSManager_v8.7 || return
+cd MCSManager_v8.7
 # 启动面板
 npm start
 # 关闭面板使用 Ctrl+C 快捷键即可

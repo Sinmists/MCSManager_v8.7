@@ -49,7 +49,7 @@ echo "complete."
 
 echo "Download MCSManager..."
 # Use Gitee
-git clone https://gitee.com/kc_jiang/MCSManager_v8.7.git
+git clone https://gitee.com/Sinmists/MCSManager_v8.7.git
 cd MCSManager_v8.7 || return
 echo "complete."
 

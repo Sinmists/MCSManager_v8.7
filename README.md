@@ -77,7 +77,7 @@ wget https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/ins
 ```
 若使用Gitee源：
 ```
-wget https://gitee.com/kc_jiang/MCSManager_v8.7/raw/master/linux/install_gitee.sh && chmod +x install_gitee.sh && ./install_gitee.sh
+wget https://gitee.com/Sinmists/MCSManager_v8.7/raw/master/linux/install_gitee.sh && chmod +x install_gitee.sh && ./install_gitee.sh
 ```
 
 - 执行完成后，使用 `systemctl start mcsm` 即可启动面板服务。

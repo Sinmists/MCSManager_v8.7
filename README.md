@@ -72,7 +72,7 @@ Linux 下面板如何后台运行？ | [参考方法](https://github.com/Suwings
 **快速安装（适用于AMD64架构 Ubuntu/Centos/Debian/Archlinux）**
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/install.sh | bash
+wget https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/install.sh | bash
 ```
 
 - 执行完成后，使用 `systemctl start mcsm` 即可启动面板服务。

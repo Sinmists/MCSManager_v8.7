@@ -59,11 +59,9 @@ Linux 下面板如何后台运行？ | [参考方法](https://github.com/Suwings
 
 在 Windows 运行 
 -----------
-对于 Windows 系统，**已整合成直接运行版本，下载即可运行**(建议使用管理员权限运行):
+**已整合成直接运行版本，下载即可运行**(建议使用管理员权限运行):
 
-https://mcsmanager.com/ (官方站点)
-
-- 前往官方网站下载 Windows 版本即可，双击 `运行.bat` 或 `Start.bat` 文件即可。
+- 前往release下载 Windows 版本即可，双击 `运行.bat` 或 `Start.bat` 文件即可。
 
 <br />
 
@@ -71,10 +69,10 @@ https://mcsmanager.com/ (官方站点)
 在 Linux 运行
 -----------
 
-**一行命令快速安装（适用于AMD64架构 Ubuntu/Centos/Debian/Archlinux）**
+**快速安装（适用于AMD64架构 Ubuntu/Centos/Debian/Archlinux）**
 
 ```bash
-wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Sinmists/MCSManager_v8.7/master/linux/install.sh | bash
 ```
 
 - 执行完成后，使用 `systemctl start mcsm` 即可启动面板服务。
@@ -94,9 +92,8 @@ wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh
 
 ```zsh
 # 克隆仓库
-git clone https://github.com/suwings/mcsmanager.git
-# 进入目录
-cd mcsmanager/
+git clone https://github.com/Sinmists/MCSManager_v8.7.git
+cd MCSManager_v8.7 || return
 # 启动面板
 npm start
 # 关闭面板使用 Ctrl+C 快捷键即可
